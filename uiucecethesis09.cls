@@ -116,12 +116,12 @@
     }
 \newcommand{\othermasters}[2]{\def\@degree{#1}
     \def\degree{#2}
-    \def\@thesisname{THESIS}
+    \def\@thesisname{PRELIMINARY EXAMINATION}
     \@doctoralfalse
     }
 \newcommand\phdthesis{\otherdoctorate{Doctor of Philosophy}{Ph.D.}
     }
-\newcommand\msthesis{\othermasters{Master of Science}{M.S.}
+\newcommand\msthesis{\othermasters{Doctor of Philosophy}{Ph.D.}
     }
 \def\degreeyear#1{\def\@degreeyear{#1}}
 \def\department#1{\def\@dept{#1}}
@@ -235,7 +235,7 @@
         \hspace*{0.53in}\begin{tabular}{l}\@committee\end{tabular}%\vfil} %default is 0.6in
       \else
         \if@c@mmitt@@
-          \hspace*{0.1in}Master's Committee:\\[12pt] %default is 0.2in
+          \hspace*{0.1in}Committee:\\[12pt] %default is 0.2in
          \hspace*{0.53in}\begin{tabular}{l}\@committee\end{tabular}%\vfil} %default is 0.6in
         \else
         \hspace*{0.1in}Adviser:\\[12pt] %default is 0.2in
